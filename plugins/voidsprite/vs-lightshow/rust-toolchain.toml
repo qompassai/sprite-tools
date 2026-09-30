@@ -1,0 +1,4 @@
+# Pinned toolchain for this crate (Tiger Style: exact nightly date).
+# Installed on the build machine; no download required.
+[toolchain]
+channel = "nightly-2026-09-25"
