@@ -1,0 +1,19 @@
+[package]
+name = "vs-defringe"
+version = "1.0.0"
+edition = "2024"
+description = "VoidSprite native plugin (SDK v1): defringe filter that removes stray semi-transparent, isolated noise pixels from AI-generated pixel art"
+authors = ["Pax (Qompass AI)"]
+license = "Apache-2.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+# No dependencies: the plugin talks to the host only through the C ABI
+# function table it receives in `pluginInit`.
+
+[profile.release]
+# A panic must never unwind across the FFI boundary into the host.
+# The code is written to be panic-free (no unwrap/expect, validated
+# indexing); `abort` is the backstop.
+panic = "abort"
