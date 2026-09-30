@@ -1,0 +1,6 @@
+# Pinned toolchain: the exact stable release this plugin is built, tested,
+# and load-tested against. (Project convention prefers a reviewed nightly
+# date; this plugin uses no nightly features, so the validated stable
+# release is pinned instead for reproducibility.)
+[toolchain]
+channel = "1.96.0"
