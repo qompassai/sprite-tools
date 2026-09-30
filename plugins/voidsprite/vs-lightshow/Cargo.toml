@@ -1,0 +1,15 @@
+[package]
+name = "vs_lightshow"
+version = "1.1.0"
+edition = "2024"
+description = "VoidSprite SDK v1 plugin: light-show sprite tools (blink/breathing frame filters, sprite-sheet + JSON exporter). Rust port of vs_lightshow.c."
+# Never published to a registry: VoidSprite loads this as a native plugin.
+publish = false
+
+[lib]
+name = "vs_lightshow"
+crate-type = ["cdylib"]
+
+[profile.release]
+# A panic must never unwind across the FFI boundary: abort instead.
+panic = "abort"
