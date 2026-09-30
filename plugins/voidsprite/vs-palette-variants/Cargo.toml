@@ -1,0 +1,16 @@
+[package]
+name = "vs-palette-variants"
+version = "1.0.0"
+edition = "2024"
+description = "VoidSprite native plugin: hue-shift filter generating alternate palette variants of a sprite sheet"
+authors = ["Pax (Qompass AI)"]
+license = "Apache-2.0"
+
+[lib]
+name = "vs_palette_variants"
+crate-type = ["cdylib"]
+
+# Zero dependencies by design: the plugin only talks to the host SDK table.
+
+[profile.release]
+panic = "abort"
