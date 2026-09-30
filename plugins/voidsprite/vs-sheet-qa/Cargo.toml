@@ -1,0 +1,13 @@
+[package]
+name = "vs_sheetqa"
+version = "1.0.0"
+edition = "2024"
+description = "Sprite-sheet QA actions for VoidSprite: extract one cell, diff two cells."
+authors = ["Pax (Qompass AI)"]
+license = "Apache-2.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+panic = "abort"
