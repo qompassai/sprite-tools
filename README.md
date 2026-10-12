@@ -26,7 +26,7 @@ sprite-tools/
 │       │   └── c-orig/            # original C sources (kept for reference)
 │       ├── vs-sheet-qa/           # "sheet QA tools" (v1.0.0)
 │       ├── vs-defringe/           # "defringe tools" (v1.0.0)
-│       └── vs-palette-variants/    # "palette variant tools" (v1.0.0)
+│       ├── vs-palette-variants/    # "palette variant tools" (v1.0.0)
 │       └── vs-character-creator/   # "character creator" (v1.0.0)
 ├── scripts/
 │   └── aseprite/

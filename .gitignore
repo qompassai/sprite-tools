@@ -1,0 +1,10 @@
+# Build artifacts (each plugin crate builds independently)
+target/
+Cargo.lock
+
+# Generated SCIP index artifacts (regen: scip-lua over scripts/aseprite)
+/index.scip
+/annotation_sidecar.json
+/pilot_defs.json
+/pilot_occurrences.json
+/stats.json
