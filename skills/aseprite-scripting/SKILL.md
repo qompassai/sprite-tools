@@ -1,6 +1,6 @@
 ---
 name: "aseprite-scripting"
-description: "Automate Aseprite with Lua scripting and the headless CLI in Matt's Tiger Style: the batch-mode script contract, argv-array CLI discipline, headless pipeline patterns, and the sprite-tools sheet pipeline (assemble/verify/export/montage plus the interactive new_character.lua creator). Aseprite has no native plugin SDK — Lua scripts and the CLI are the entire automation surface. See references/sheet-pipeline.md for the repo's five scripts and their contracts."
+description: "Automate Aseprite with Lua scripting and the headless CLI in Owner's Tiger Style: the batch-mode script contract, argv-array CLI discipline, headless pipeline patterns, and the sprite-tools sheet pipeline (assemble/verify/export/montage plus the interactive new_character.lua creator). Aseprite has no native plugin SDK — Lua scripts and the CLI are the entire automation surface. See references/sheet-pipeline.md for the repo's five scripts and their contracts."
 ---
 
 # Aseprite Scripting

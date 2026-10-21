@@ -1,6 +1,6 @@
 ---
 name: "voidsprite-plugin-dev"
-description: "Build native VoidSprite plugins (.so loaded via dlopen) in Matt's Tiger Style: the six C-ABI exports, repr(C) struct transcription with header-drift assertions, FFI boundary discipline (no panics/exceptions crossing into the host), filter vs editor-action parameter story, and the Xvfb load-test gate. See references/sdk-layout.md for the verified SDK struct layout and references/languages.md for the language choice guide."
+description: "Build native VoidSprite plugins (.so loaded via dlopen) in Owner's Tiger Style: the six C-ABI exports, repr(C) struct transcription with header-drift assertions, FFI boundary discipline (no panics/exceptions crossing into the host), filter vs editor-action parameter story, and the Xvfb load-test gate. See references/sdk-layout.md for the verified SDK struct layout and references/languages.md for the language choice guide."
 ---
 
 # VoidSprite Plugin Development
