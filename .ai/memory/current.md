@@ -21,5 +21,5 @@ docs for developing both (`skills/`).
 ## Standing rules
 
 - License: Apache-2.0 (LICENSE at repo root).
-- Code changes are pushed only under Matt's explicit direction
+- Code changes are pushed only under Owner's explicit direction
   (the 2026-10-11 overnight campaign authorization covered this pass).
